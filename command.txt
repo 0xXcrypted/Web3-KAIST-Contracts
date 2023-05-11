@@ -1,0 +1,8 @@
+npx hardhat compile
+
+npx hardhat run scripts/deploy.js 
+
+npx hardhat verify --network goerli DEPLOYED_CONTRACT_ADDRESS ""
+
+npx hardhat verify --network goerli arg0 arg1 ...
+
